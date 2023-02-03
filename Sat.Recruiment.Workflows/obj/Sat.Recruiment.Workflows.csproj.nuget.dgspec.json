@@ -1,0 +1,207 @@
+{
+  "format": 1,
+  "restore": {
+    "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Workflows\\Sat.Recruiment.Workflows.csproj": {}
+  },
+  "projects": {
+    "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj",
+        "projectName": "Sat.Recruiment.Common",
+        "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj",
+        "packagesPath": "C:\\Users\\david.ricaurte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david.ricaurte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://marketingg2.pkgs.visualstudio.com/_packaging/MG2CEP_Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Workflows\\Sat.Recruiment.Workflows.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Workflows\\Sat.Recruiment.Workflows.csproj",
+        "projectName": "Sat.Recruiment.Workflows",
+        "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Workflows\\Sat.Recruiment.Workflows.csproj",
+        "packagesPath": "C:\\Users\\david.ricaurte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Workflows\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david.ricaurte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://marketingg2.pkgs.visualstudio.com/_packaging/MG2CEP_Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj": {
+                "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj"
+              },
+              "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\Sat.Recruiment.Services.csproj": {
+                "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\Sat.Recruiment.Services.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\Sat.Recruiment.Services.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\Sat.Recruiment.Services.csproj",
+        "projectName": "Sat.Recruiment.Services",
+        "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\Sat.Recruiment.Services.csproj",
+        "packagesPath": "C:\\Users\\david.ricaurte\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Services\\obj\\",
+        "projectStyle": "PackageReference",
+        "configFilePaths": [
+          "C:\\Users\\david.ricaurte\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp3.1"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://marketingg2.pkgs.visualstudio.com/_packaging/MG2CEP_Feed/nuget/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp3.1": {
+            "targetAlias": "netcoreapp3.1",
+            "projectReferences": {
+              "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj": {
+                "projectPath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp3.1": {
+          "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "Microsoft.Extensions.Caching.Abstractions": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            },
+            "Microsoft.Extensions.Caching.Memory": {
+              "target": "Package",
+              "version": "[3.1.32, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48",
+            "net481"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\6.0.400\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

@@ -2,38 +2,46 @@ using System;
 using System.Dynamic;
 
 using Microsoft.AspNetCore.Mvc;
-
+using Moq;
+using Sat.Recruiment.Common.Enums;
+using Sat.Recruiment.Common.Models.Input.User;
+using Sat.Recruiment.Services.Contracts.User;
+using Sat.Recruiment.Workflows.Implementation.User;
 using Sat.Recruitment.Api.Controllers;
 
 using Xunit;
 
 namespace Sat.Recruitment.Test
 {
+    //here we go to validate the workflows :) 
     [CollectionDefinition("Tests", DisableParallelization = true)]
     public class UnitTest1
     {
         [Fact]
-        public void Test1()
+        public void CheckIfTheInputModelIsInvalid()
         {
-            var userController = new UsersController();
+            var instance = this.CreateInstance();
 
-            var result = userController.CreateUser("Mike", "mike@gmail.com", "Av. Juan G", "+349 1122354215", "Normal", "124").Result;
+            var result = instance.createUser(new UserInputModel { address = "", email = null, money = 0, name = "", phone = "", userType = UserType.Normal });
 
-
-            Assert.Equal(true, result.IsSuccess);
-            Assert.Equal("User Created", result.Errors);
+            Assert.True(result.Result.HasErrors);
         }
 
         [Fact]
-        public void Test2()
+        public void CheckIfTheUserIsCreated()
         {
-            var userController = new UsersController();
+            var instance = this.CreateInstance();
 
-            var result = userController.CreateUser("Agustina", "Agustina@gmail.com", "Av. Juan G", "+349 1122354215", "Normal", "124").Result;
+            var result = instance.createUser(new UserInputModel { address = "calle 123", email = "test", money = 0, name = "", phone = "", userType = UserType.Normal });
 
+            Assert.False(result.Result.HasErrors);
+        }
 
-            Assert.Equal(false, result.IsSuccess);
-            Assert.Equal("The user is duplicated", result.Errors);
+        private UserWorkflow CreateInstance(IUserService userService = null)
+        {
+
+            userService ??= new Mock<IUserService>().Object;
+            return new UserWorkflow(userService);
         }
     }
 }

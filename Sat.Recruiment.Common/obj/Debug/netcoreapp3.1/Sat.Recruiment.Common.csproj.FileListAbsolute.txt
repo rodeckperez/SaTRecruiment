@@ -1,0 +1,10 @@
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\bin\Debug\netcoreapp3.1\Sat.Recruiment.Common.deps.json
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\bin\Debug\netcoreapp3.1\Sat.Recruiment.Common.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\bin\Debug\netcoreapp3.1\Sat.Recruiment.Common.pdb
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.csproj.AssemblyReference.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.AssemblyInfoInputs.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.AssemblyInfo.cs
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.csproj.CoreCompileInputs.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Common\obj\Debug\netcoreapp3.1\Sat.Recruiment.Common.pdb

@@ -5,8 +5,14 @@
   </PropertyGroup>
 
   <ItemGroup>
+    <PackageReference Include="Newtonsoft.Json" Version="9.0.1" />
     <PackageReference Include="Swashbuckle.AspNetCore" Version="5.6.3" />
     <PackageReference Include="Swashbuckle.AspNetCore.Swagger" Version="5.6.3" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Sat.Recruiment.Workflows\Sat.Recruiment.Workflows.csproj" />
+    <ProjectReference Include="..\Services\Sat.Recruiment.Services.csproj" />
   </ItemGroup>
 
   <ItemGroup>

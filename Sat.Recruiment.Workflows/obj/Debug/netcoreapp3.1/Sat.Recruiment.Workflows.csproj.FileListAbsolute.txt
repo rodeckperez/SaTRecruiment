@@ -1,0 +1,16 @@
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.deps.json
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.pdb
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Common.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Common.pdb
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.csproj.AssemblyReference.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.AssemblyInfoInputs.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.AssemblyInfo.cs
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.csproj.CoreCompileInputs.cache
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.csproj.CopyComplete
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\obj\Debug\netcoreapp3.1\Sat.Recruiment.Workflows.pdb
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Services.dll
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Sat.Recruiment.Services.pdb
+C:\Users\david.ricaurte\Desktop\Sat.Recruitment\Sat.Recruiment.Workflows\bin\Debug\netcoreapp3.1\Files\Users.txt

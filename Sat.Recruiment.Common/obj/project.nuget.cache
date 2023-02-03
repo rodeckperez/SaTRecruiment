@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "rtfufW+e9ULmJ4oLqQ8Ql71OAAgW2614ePrcS0M9jUr1rK3RCt85sYuuH3qL+UYInOD4fnRLQ9Zqaw9HCZKghQ==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\david.ricaurte\\Desktop\\Sat.Recruitment\\Sat.Recruiment.Common\\Sat.Recruiment.Common.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\3.1.32\\microsoft.extensions.caching.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.caching.memory\\3.1.32\\microsoft.extensions.caching.memory.3.1.32.nupkg.sha512",
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\3.1.32\\microsoft.extensions.dependencyinjection.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\3.1.32\\microsoft.extensions.logging.abstractions.3.1.32.nupkg.sha512",
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.options\\3.1.32\\microsoft.extensions.options.3.1.32.nupkg.sha512",
+    "C:\\Users\\david.ricaurte\\.nuget\\packages\\microsoft.extensions.primitives\\3.1.32\\microsoft.extensions.primitives.3.1.32.nupkg.sha512"
+  ],
+  "logs": []
+}

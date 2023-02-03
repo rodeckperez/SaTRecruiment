@@ -5,7 +5,10 @@ using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
-
+using Sat.Recruiment.Services.Contracts.User;
+using Sat.Recruiment.Services.Implementation.User;
+using Sat.Recruiment.Workflows.Contracts.User;
+using Sat.Recruiment.Workflows.Implementation.User;
 using System;
 using System.Collections.Generic;
 using System.Linq;
@@ -26,6 +29,9 @@ namespace Sat.Recruitment.Api
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddControllers();
+            services.AddScoped<IUserWorkflow, UserWorkflow>();
+            services.AddScoped<IUserService, UserService>();
+            services.AddMemoryCache();
             services.AddSwaggerGen();
         }
 
